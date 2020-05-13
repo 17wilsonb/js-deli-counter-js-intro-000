@@ -5,7 +5,7 @@ function takeANumber(line, name){
 
 function nowServing(line){
   if(line.length > 0){
-    var nextInLine = line.slice(1);
+    var nextInLine = line[0];
     line.shift();
     return nextInLine;
   } else {
